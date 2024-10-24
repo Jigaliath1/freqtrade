@@ -24,12 +24,7 @@ function Write-Log {
     'PROMPT' { Write-Host $Message -ForegroundColor Cyan }
   }
 
-  "${Level}: $Message" | Out-File $LogFilePath -Append
-}
-
-function Get-UserSelection {
-  param (
-    [string]$Prompt,
+  "${Level}: $Message" | Out-File $LogFilePath -Appendy
     [string[]]$Options,
     [string]$DefaultChoice = 'A',
     [bool]$AllowMultipleSelections = $true

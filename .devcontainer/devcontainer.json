@@ -38,6 +38,10 @@
                 "ms-azuretools.vscode-docker",
                 "vscode-icons-team.vscode-icons",
                 "github.vscode-github-actions",
+                "wfnuser.vscode-ruff",
+                "ms-vscode-remote.remote-containers",
+                "technosophos.vscode-make",
+                "ms-vscode.makefile-tools"
             ],
         }
     }
