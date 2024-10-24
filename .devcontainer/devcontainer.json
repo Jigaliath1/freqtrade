@@ -41,7 +41,8 @@
                 "wfnuser.vscode-ruff",
                 "ms-vscode-remote.remote-containers",
                 "technosophos.vscode-make",
-                "ms-vscode.makefile-tools"
+                "ms-vscode.makefile-tools",
+                "ms-vscode.live-server"
             ],
         }
     }
